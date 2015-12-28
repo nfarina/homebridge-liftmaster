@@ -8,8 +8,8 @@ Example config.json:
         {
           "accessory": "LiftMaster",
           "name": "Garage Door",
-          "username": "<your MyQ email address>",
-          "password": "<your MyQ password>"
+          "username": "your@email.com",
+          "password": "your_password"
         }
       ]
     }
@@ -21,9 +21,9 @@ If you have multiple garage doors connected to your LiftMaster account, the plug
         {
           "accessory": "LiftMaster",
           "name": "Side Garage Door",
-          "username": "<your MyQ email address>",
-          "password": "<your MyQ password>",
-          "deviceID": "<device ID>"
+          "username": "your@email.com",
+          "password": "your_password",
+          "deviceID": "desired_device_id"
         }
       ]
     }
