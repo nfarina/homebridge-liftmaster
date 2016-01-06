@@ -1,6 +1,6 @@
 {
   "name": "homebridge-liftmaster",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "LiftMaster support for Homebridge: https://github.com/nfarina/homebridge",
   "license": "ISC",
   "keywords": [
