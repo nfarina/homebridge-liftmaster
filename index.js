@@ -128,8 +128,18 @@ LiftMasterAccessory.prototype = {
 
             // We specified a door ID, sanity check to make sure it's the one we expected
             else if (that.deviceID == device.MyQDeviceId) {
-              that.deviceId = device.MyQDeviceId;
-              break;
+            // Added attribute loop here to pull doorstate
+              var thisDeviceId = device.MyQDeviceId;
+              
+              for (var j = 0; j < device.Attributes.length; j ++) {
+                var thisAttributeSet = device.Attributes[j];
+                if (thisAttributeSet.AttributeDisplayName == "doorstate") {
+                  thisDoorState = thisAttributeSet.Value;
+              }
+            }
+            that.deviceId = device.MyQDeviceId;
+            that.deviceState = thisDoorState;
+            break;
             }
           }
         }
