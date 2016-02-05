@@ -115,7 +115,6 @@ LiftMasterAccessory.prototype = {
                 var thisAttributeSet = device.Attributes[j];
                 if (thisAttributeSet.AttributeDisplayName == "desc") {
                   thisDoorName = thisAttributeSet.Value;
-                  break;
                 }
                 if (thisAttributeSet.AttributeDisplayName == "doorstate") {
                   thisDoorState = thisAttributeSet.Value;
