@@ -1,4 +1,8 @@
 
+# Important Notice
+
+This plugin is rather old - it still Works For Me™ so I haven't hacked on it much. If you are having trouble with it, I recommend checking out the newer [`homebridge-liftmaster2`](https://github.com/luisiam/homebridge-liftmaster2) by [luisiam](https://github.com/luisiam).
+
 # LiftMaster Plugin
 
 Example config.json:
